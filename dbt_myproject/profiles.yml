@@ -1,0 +1,13 @@
+# example profiles.yml file
+default:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: postgres
+      port: 5433
+      dbname: postgres
+      schema: public
+      threads: 4
